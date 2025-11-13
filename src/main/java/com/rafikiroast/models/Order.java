@@ -10,8 +10,11 @@ public class Order {
     private List<Drinks> drinks = new ArrayList<>();
 
     public Order() {
-        orderNumber = counter;
-        counter += 1;
+        orderNumber = counter++;
+    }
+
+    public int getOrderNumber() {
+        return orderNumber;
     }
 
     public void addItem(OrderItem item) {
@@ -36,11 +39,13 @@ public class Order {
         StringBuilder sb = new StringBuilder();
         sb.append("Order #").append(orderNumber).append("\n");
         sb.append("Items:\n");
-        for (OrderItem item : items) sb.append(item).append("\n");
+        for (OrderItem item : items)
+            sb.append(item).append("\n");
 
         if (!drinks.isEmpty()) {
             sb.append("Drinks:\n");
-            for (Drinks d : drinks) sb.append(d).append("\n");
+            for (Drinks d : drinks)
+                sb.append(d).append("\n");
         }
 
         sb.append("Total Order Cost: $").append(String.format("%.2f", getTotal())).append("\n");

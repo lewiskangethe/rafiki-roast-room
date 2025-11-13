@@ -12,14 +12,9 @@ public class OrderItem {
     private boolean isCustomized;
     private double totalPrice;
 
-    public OrderItem(BaseOptions base, List<Proteins> proteins, List<PremiumAddOns> premiumAddOns, List<Toppings> toppings, List<Sauces> sauces, boolean isCustomized, double totalPrice) {
+    public OrderItem(BaseOptions base) {
         this.base = base;
-        this.proteins = proteins;
-        this.premiumAddOns = premiumAddOns;
-        this.toppings = toppings;
-        this.sauces = sauces;
-        this.isCustomized = isCustomized;
-        this.totalPrice = totalPrice;
+        this.totalPrice = base.getBasePrice(); // include base price
     }
 
     public void addProtein(Proteins protein) {
@@ -50,14 +45,11 @@ public class OrderItem {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder("OrderItem{");
-        sb.append(base.toString()).append("\n");
+        StringBuilder sb = new StringBuilder(base.toString()).append("\n");
 
         if (!proteins.isEmpty()) {
             sb.append("Proteins: ");
-            for (Proteins proteins1 : proteins)
-                sb.append(proteins1.getName()).append(", ");
-            //remove comma
+            for (Proteins p : proteins) sb.append(p.getName()).append(", ");
             sb.setLength(sb.length() - 2);
             sb.append("\n");
         }
@@ -89,5 +81,3 @@ public class OrderItem {
         return sb.toString();
     }
 }
-
-
