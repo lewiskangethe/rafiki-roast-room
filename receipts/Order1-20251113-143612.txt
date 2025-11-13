@@ -1,0 +1,12 @@
+Order #1
+Items:
+Dinner Ugali Scoops - $10.00
+Proteins: Nyama Choma, Mshikaki Skewers
+Premium Add-Ons: Avocado
+Toppings: Pickled Carrots, Sweet Corn & Coconut Mix, Sauteed Spinach
+Sauces: Harissa Mayo, Mango-Lime Drizzle
+Item Total: $18.50
+
+Drinks:
+Large Stoney Tangawizi - $3.50
+Total Order Cost: $22.00

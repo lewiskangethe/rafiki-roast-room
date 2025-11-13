@@ -1,0 +1,13 @@
+Order #1
+Items:
+Dinner Jollof Rice - $10.00
+Proteins: Berbere Beef, Red Lentil Stew
+Premium Add-Ons: Sesame Tahini Drizzle
+Toppings: Grilled Peppers, Jalapenos, Spiced Mushrooms, Tomato-Ginger Relish
+Sauces: Pili Pili, House Vinaigrette
+Customized Option Applied
+Item Total: $18.50
+
+Drinks:
+Large Passion Fruit Juice - $3.50
+Total Order Cost: $22.00
