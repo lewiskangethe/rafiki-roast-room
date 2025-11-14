@@ -1,0 +1,18 @@
+Order #1
+Items:
+Dinner Jollof Rice - $10.00
+Proteins: Berbere Beef, Red Lentil Stew
+Premium Add-Ons: Sesame Tahini Drizzle
+Toppings: Caramelized Onions, Mango Salsa, Jalapenos
+Sauces: Pili Pili, Mango-Lime Drizzle
+Item Total: $18.50
+
+Lunch Injera Strips - $8.00
+Premium Add-Ons: Sesame Tahini Drizzle
+Sauces: House Vinaigrette
+Item Total: $10.00
+
+Drinks:
+Large Passion Fruit Juice - $3.50
+Large Stoney Tangawizi - $3.50
+Total Order Cost: $35.50

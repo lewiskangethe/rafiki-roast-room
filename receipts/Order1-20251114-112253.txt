@@ -1,0 +1,12 @@
+Order #1
+Items:
+Dinner Ugali Scoops - $10.00
+Proteins: Nyama Choma, Coconut Curry Beans
+Premium Add-Ons: Avocado
+Toppings: Caramelized Onions, Cabbage Slaw, Sauteed Spinach, Mango Salsa
+Sauces: Mango-Lime Drizzle
+Item Total: $18.50
+
+Drinks:
+Large Date Milkshake - $3.50
+Total Order Cost: $22.00

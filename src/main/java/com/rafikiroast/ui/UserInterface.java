@@ -217,7 +217,6 @@ public class UserInterface {
             }
         }
 
-        // SAUCES
         System.out.println("********************");
         System.out.println("Add Sauces? (y/n): ");
         if (scanner.nextLine().trim().equalsIgnoreCase("y")) {
