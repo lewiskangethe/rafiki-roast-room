@@ -1,0 +1,11 @@
+Order #1
+Items:
+Dinner Chapati Wrap - $10.00
+Proteins: Red Lentil Stew
+Premium Add-Ons: Avocado
+Sauces: Coconut Herb Sauce
+Item Total: $15.50
+
+Drinks:
+Large Kenyan Chai - $3.50
+Total Order Cost: $19.00

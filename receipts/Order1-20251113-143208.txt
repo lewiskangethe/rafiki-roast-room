@@ -1,0 +1,12 @@
+Order #1
+Items:
+Lunch Jollof Rice - $8.00
+Proteins: Nyama Choma, Coconut Curry Beans
+Premium Add-Ons: Avocado
+Toppings: Kachumbari, Grilled Peppers, Sauteed Spinach
+Sauces: Mango-Lime Drizzle
+Item Total: $14.00
+
+Drinks:
+Large Kenyan Chai - $3.50
+Total Order Cost: $17.50

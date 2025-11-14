@@ -1,0 +1,12 @@
+Order #1
+Items:
+Dinner Ugali Scoops - $10.00
+Proteins: Ginger-Lime Tilapia, Red Lentil Stew
+Premium Add-Ons: Avocado
+Toppings: Jalapenos, Sauteed Spinach, Cabbage Slaw
+Sauces: Mango-Lime Drizzle
+Item Total: $18.50
+
+Drinks:
+Large Passion Fruit Juice - $3.50
+Total Order Cost: $22.00

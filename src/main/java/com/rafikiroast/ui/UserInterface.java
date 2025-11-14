@@ -151,7 +151,6 @@ public class UserInterface {
 
         OrderItem item = new OrderItem(base);
 
-        // PROTEINS
         System.out.println("********************");
         System.out.println("Add Proteins? (an upcharge will apply) (y/n): ");
         if (scanner.nextLine().trim().equalsIgnoreCase("y")) {
@@ -164,8 +163,8 @@ public class UserInterface {
             String input = scanner.nextLine().trim();
             if (!input.equals("0")) {
                 String[] choices = input.split(",");
-                for (String c : choices) {
-                    int num = Integer.parseInt(c.trim());
+                for (String choice : choices) {
+                    int num = Integer.parseInt(choice.trim());
                     if (num >= 1 && num <= proteinOptions.length) {
                         double proteinPrice = size.equals("Lunch") ? 2.0 : 3.0;
                         item.addProtein(new Proteins(proteinOptions[num - 1], proteinPrice));
@@ -174,7 +173,6 @@ public class UserInterface {
             }
         }
 
-        // PREMIUM ADD-ONS
         System.out.println("********************");
         System.out.println("Add Premium Add-Ons? (y/n): ");
         if (scanner.nextLine().trim().equalsIgnoreCase("y")) {
@@ -196,7 +194,6 @@ public class UserInterface {
             }
         }
 
-        // TOPPINGS
         System.out.println("********************");
         System.out.println("Add Toppings? (y/n): ");
         if (scanner.nextLine().trim().equalsIgnoreCase("y")) {
@@ -211,8 +208,8 @@ public class UserInterface {
             String input = scanner.nextLine().trim();
             if (!input.equals("0")) {
                 String[] choices = input.split(",");
-                for (String c : choices) {
-                    int num = Integer.parseInt(c.trim());
+                for (String choice : choices) {
+                    int num = Integer.parseInt(choice.trim());
                     if (num >= 1 && num <= toppingOptions.length) {
                         item.addTopping(new Toppings(toppingOptions[num - 1]));
                     }
@@ -233,8 +230,8 @@ public class UserInterface {
             String input = scanner.nextLine().trim();
             if (!input.equals("0")) {
                 String[] choices = input.split(",");
-                for (String c : choices) {
-                    int num = Integer.parseInt(c.trim());
+                for (String choice : choices) {
+                    int num = Integer.parseInt(choice.trim());
                     if (num >= 1 && num <= sauceOptions.length) {
                         item.addSauce(new Sauces(sauceOptions[num - 1]));
                     }
@@ -242,12 +239,11 @@ public class UserInterface {
             }
         }
 
-        // CUSTOMIZED OPTION
-        System.out.println("********************");
-        System.out.println("Would you like to customize this item? (y/n): ");
-        if (scanner.nextLine().trim().equalsIgnoreCase("y")) {
-            item.setCustomized(true);
-        }
+//        System.out.println("********************");
+//        System.out.println("Would you like to customize this item? (y/n): ");
+//        if (scanner.nextLine().trim().equalsIgnoreCase("y")) {
+//            item.setCustomized(true);
+//        }
 
         order.addItem(item);
         System.out.println("********************");
